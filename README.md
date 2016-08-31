@@ -1,4 +1,3 @@
 # SICP solutions
-I also have some source code in those files whose names start with `ch`.
 
->todo: need refactoring the codes.
+>todo: The styles of code are so different between first chapters and latter chapters. Need refactoring the codes.
