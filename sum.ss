@@ -1,0 +1,10 @@
+(define (max a b)
+(cond ((> a b) a) (else b)))
+
+(define (sum x y z)
+(+ (max x (max y z))
+    (if (= (max x y ) x) (if (> x z) (max y z)
+                                               x)
+                                (if (> y z) (max x z)
+                                               y))
+)
